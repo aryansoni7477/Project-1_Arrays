@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class BestScore {
     public static void main(String[] args) {
-        int[] arr1={5,6,7,8};
+        int[] arr1={1,16,77,8};
         int[] arr=findTopTwoScores(arr1);
         System.out.println(Arrays.toString(arr));
     }
