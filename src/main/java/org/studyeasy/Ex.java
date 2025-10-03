@@ -7,7 +7,7 @@ public class Ex {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int[] arr1={1,2,3,4};
+        int[] arr1={1,2,3,4,5,7};
         int[] arr=middle(arr1);
         System.out.println(Arrays.toString(arr));
     }

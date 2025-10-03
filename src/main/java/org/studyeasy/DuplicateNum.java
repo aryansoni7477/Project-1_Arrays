@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class DuplicateNum {
     public static void main(String[] args) {
-        int[] arr={1, 1, 2, 2, 3, 4, 5};
+        int[] arr={1, 1, 2, 2, 3, 3,5,4,0,4, 5};
         int[] arr1=removeDuplicates(arr);
         System.out.println(Arrays.toString(arr1));
     }
